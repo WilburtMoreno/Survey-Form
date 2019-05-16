@@ -1,0 +1,45 @@
+@font-face {
+    src: url(fonts/Baloo_Bhai/BalooBhai-Regular.ttf);
+    font-family: Baloo Bhai;
+}
+body {
+    font-family: baloo bhai, Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.containers {
+    background-color: #999;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    background-color: #fff;
+    min-height: 70px;
+}
+header #logo {
+    float: left;
+    padding: 0 0 0 10px;
+}
+header h1 {
+    padding: 0;
+    margin: 0;
+}
+header nav {
+    float: right;
+    padding: 15px 10px 10px 10px;
+}
+header ul {
+    padding: 0;
+    margin: 0;
+}
+header li {
+    display: inline;
+    float: left;
+    margin: 0 10px 0 0;
+    text-transform: uppercase;
+}
+header a {
+    color: black;
+    text-decoration: none;
+}
